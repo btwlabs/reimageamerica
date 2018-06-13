@@ -1,0 +1,146 @@
+//------------------------------------------------
+//
+// 	Section OUR PROCESS
+//
+//------------------------------------------------*/
+
+.section-process {
+	
+	&.section {
+		padding-bottom: 0;
+	}
+	.carousel-custom {
+		min-height: 600px;
+	}
+	
+	.carousel-wrapper {
+		//padding-top: 200px;
+		background: $secondary-color url(../images/icon-dragonfly-ghosted.svg) no-repeat scroll -10% 40%;
+		background-size: 60% auto;
+		position: relative;
+	}
+	
+	
+	// custom indicators
+	.swiper-pagination {
+		position: relative;
+	    padding: 60px 0 60px;
+	    top: 0;
+	    left: 0;
+	    bottom:0;
+	    z-index: 0;
+		
+		&:after {
+			content: "";
+			display: block;
+			height: 3px;
+			background-color: #fff;
+			width: 90%;
+			position: absolute;
+			z-index: 1;
+			top: 50%;
+			left: 5px;
+		}
+		
+		@media #{$small-and-down} {
+			margin: 0 auto;
+			max-width: 300px;
+		}
+		@media #{$medium-only} {
+			margin: 0 auto;
+			max-width: 500px;
+		}
+
+	    @media #{$large-and-up} {
+			max-width: 600px;
+			margin: 0 auto;
+	    }
+	    
+
+		.swiper-pagination-bullet {
+			display: inline-block;
+			position: relative;
+			cursor: pointer;
+			height: 60px;
+			width: 60px;
+			margin: 0 150px 0 0;
+			background-color: $secondary-color;
+			border: 3px solid #fff;
+			opacity: 1;
+			color: #fff;
+			font-size: 35px;
+			text-align: center;
+			z-index: 2;
+			
+			transition: background-color .3s;
+			border-radius: 50%;
+			
+			@media #{$small-and-down} {
+				margin: 0 20px 0 0;
+			}
+			@media #{$medium-only} {
+				margin: 0 85px 0 0;
+			}
+			@media #{$large-and-up} {
+				margin: 0 120px 0 0;
+			}
+			
+			&.swiper-pagination-bullet-active {
+				background-color: $primary-color;
+				opacity: 1;
+			}
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-pagination-bullet-active {
+    color:#fff;
+    background: $primary-color;
+}
+
+.slide-content {
+	text-align: left;
+	@media #{$small-and-down} {
+		padding: 0 30px 30px;
+	}
+	@media #{$medium-only} {
+		padding: 0 10% 10%;
+		max-width: 500px;
+	}
+	@media #{$large-and-up} {
+	    padding: 0 20% 10%;
+	    max-width: 600px;
+    }
+    
+    h2 {
+	    @media #{$small-and-down} {
+		    font-size: 2.5rem;
+	    }
+    }
+}

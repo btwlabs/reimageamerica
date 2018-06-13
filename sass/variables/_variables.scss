@@ -1,0 +1,154 @@
+//------------------------------------------------------
+//
+//	VARIABLES 
+//
+//	location: 
+//      /sass/components/_variables.scss
+//
+//------------------------------------------------------
+
+
+// Set consistent vertical and horizontal spacing units.
+$vert-spacing-unit: 40px;
+$horz-spacing-unit: 1em;
+
+// global variable for border radius
+
+$border-radius: 4px;
+
+// ==========================================================================
+// Materialize variables - OVERRIDES
+// ==========================================================================
+//
+// Table of Contents:
+//
+//  3. Buttons
+//  11. Global
+//  12. Grid
+//  20. Typography
+//  22. Flow Text
+//  25. Transitions
+
+
+
+
+// 3. Buttons
+// ==========================================================================
+
+// Shared styles
+$button-border: none;
+$button-background-focus: lighten($secondary-color, 4%);
+$button-font-size: 1.3rem;
+$button-height: 36px;
+$button-padding: 0 2rem;
+$button-radius: 2px;
+
+// Disabled styles
+$button-disabled-background: #DFDFDF;
+$button-disabled-color: #9F9F9F;
+
+// Raised buttons
+$button-raised-background: $secondary-color;
+$button-raised-background-hover: lighten($button-raised-background, 5%);
+$button-raised-color: #fff;
+
+// Large buttons
+$button-large-icon-font-size: 1.6rem;
+$button-large-height: $button-height * 1.5;
+
+// Flat buttons
+$button-flat-color: #343434;
+$button-flat-disabled-color: lighten(#999, 10%);
+
+// Floating buttons
+$button-floating-background: $secondary-color;
+$button-floating-background-hover: $button-floating-background;
+$button-floating-color: #fff;
+$button-floating-size: 40px;
+$button-floating-large-size: 56px;
+$button-floating-radius: 50%;
+
+
+
+// 11. Global
+// ==========================================================================
+
+// Media Query Ranges
+$small-screen-up: 601px;
+$medium-screen-up: 993px;
+$large-screen-up: 1201px;
+$small-screen: 600px;
+$medium-screen: 992px;
+$large-screen: 1200px;
+$medium-screen-plus: 655px;
+
+$medium-plus: "only screen and (min-width : #{$medium-screen-plus})";
+$medium-and-up: "only screen and (min-width : #{$small-screen-up})";
+$large-and-up: "only screen and (min-width : #{$medium-screen-up})";
+$small-and-down: "only screen and (max-width : #{$small-screen})";
+$medium-and-down: "only screen and (max-width : #{$medium-screen})";
+$medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width : #{$medium-screen})";
+
+
+// 12. Grid
+// ==========================================================================
+
+$num-cols: 12;
+$gutter-width: 2rem;
+$element-top-margin: $gutter-width/3;
+$element-bottom-margin: ($gutter-width*2)/3;
+
+
+// 13. Navigation Bar
+// ==========================================================================
+
+$navbar-height: 60px;
+$navbar-height-mobile: 40px;
+$navbar-font-size: 1rem;
+$navbar-font-color: #000;
+$navbar-brand-font-size: 2.1rem;
+
+
+
+// 20. Typography
+// ==========================================================================
+
+$off-black: rgba(0, 0, 0, 0.87);
+// Header Styles
+$h1-fontsize-s: 30px;
+$h1-fontsize-m: 40px;
+$h1-fontsize-l: 50px;
+
+$h2-fontsize-s: 25px;
+$h2-fontsize-m: 30px;
+$h2-fontsize-l: 40px;
+
+$h3-fontsize-s: 22px;
+$h3-fontsize-m: 26px;
+$h3-fontsize-l: 30px;
+
+$h4-fontsize-s: 16px;
+$h4-fontsize-m: 19px;
+$h4-fontsize-l: 22px;
+
+$h5-fontsize-s: 13px;
+$h5-fontsize-m: 14px;
+$h5-fontsize-l: 15px;
+
+$h6-fontsize-s: 12px;
+$h6-fontsize-m: 13px;
+$h6-fontsize-l: 14px;
+
+
+// 22. Flow Text
+// ==========================================================================
+
+$range : $large-screen - $small-screen !default;
+$intervals: 20 !default;
+$interval-size: $range / $intervals !default;
+
+
+// Default transition variables for animation
+$property: all;
+$time: 0.2s;
+$function: ease;

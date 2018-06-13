@@ -1,0 +1,158 @@
+/*---------------------------------------------------------
+-----------------------------------------------------------
+
+ General LINK styles
+ 
+-----------------------------------------------------------
+----------------------------------------------------------*/
+
+// these link styles were placed here because it has to load 
+// before .button styles - due to sass globbing and no control  
+// over stylesheet loading order - for button styles to work. 
+
+a,
+a:link,
+a:visited,
+li a.active {
+	@include transition(all, 0.2s, ease-in);
+	color: $link-color;
+	text-decoration: none;
+	
+	&:hover {
+		color: $link-hover-color;
+		text-decoration: underline;
+	}
+}
+
+img {
+	max-width: 100%;
+}
+
+//-------------------------------------------
+//
+//	Layout
+//
+//-------------------------------------------
+
+.section {
+	padding: 8% 0;
+	position: relative;
+	
+	@media #{$small-and-down} {
+		padding: 50px 0;
+	}
+}
+
+//-------------------------------------------
+//
+//	Parallax
+//
+//-------------------------------------------
+	
+// show or hide large or small bg images based on layout size
+.parallax-container {
+	@media #{$small-and-down} {
+		.img-lrg {
+			display: none;
+		}
+	}
+	@media #{$medium-and-up} {
+		.img-sml {
+			display: none;
+		}
+		.img-lrg {
+			display: block;
+		}
+	}
+}
+	
+	
+	
+/*-----------------------------------------------------------
+-----------------------------------------------------------
+
+ LIST & GRID styles - without standard list formatting
+  
+-----------------------------------------------------------
+---------------------------------------------------------*/
+
+/*---------------------------------------
+
+ .GRID
+ 
+----------------------------------------*/
+
+.grid  {
+	margin: 0;
+	padding: 0;
+	@include flexbox;
+	@include align-items($value: stretch);
+	@include flex-flow($values: (row wrap));
+	@include justify-content($value: space-between);
+	@include align-content($value: stretch);
+}
+.grid ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.grid li,
+.grid-row {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	margin-bottom: 5%;
+	
+}
+
+/*---------------------------------------
+
+ .LIST
+ 
+----------------------------------------*/
+
+.list {
+	padding: 0;
+}
+.list ul {
+	margin: 0;
+	padding: 0;
+}
+.list-row {
+	padding: $vert-spacing-unit/2 0;
+	@include border-bottom($border-color);
+	list-style-type: none;
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+/* first and last row alterations */
+.list-row:nth-of-type(1) {
+	padding-top: 0;
+}
+.list-row:last-child {
+	border-bottom: 0;
+}
+
+
+//-------------------------------------------
+//
+//	BUTTONS
+//
+//-------------------------------------------
+
+a.btn,
+.btn {
+	box-shadow: none;
+	background-color: $primary-color;
+	color: #fff;
+	text-decoration: none;
+	
+	&:hover {
+		background-color: $secondary-color;
+		text-decoration: none;
+		color: #fff;
+	}
+}

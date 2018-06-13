@@ -1,0 +1,51 @@
+//------------------------------------------------
+//
+// 	Section CATALOGS
+//
+//------------------------------------------------*/
+
+
+.section-catalogs {
+
+	.grid-item {
+		border: 1px solid #ccc;
+		padding: 30px;
+		text-align: center;
+		
+		@media #{$small-and-down} {
+			//@include grid-1;
+			width: 100%;
+		}
+		@media #{$medium-only} {
+			//@include grid-2;
+			width: 48%;
+		}
+		@media #{$large-and-up} {
+			//@include grid-3;
+			width: 30%;
+		}
+		
+		h3 {
+		    display: inline-block;
+		    border: 1px solid $base-text-color;
+		    width: 50px;
+		    height: 50px;
+		    text-align: center;
+		    padding: 10px;
+		    border-radius: 100%;
+		    margin: 0;
+		    
+		    @media #{$large-and-up} {
+			    width: 60px;
+			    height: 60px;
+		    }
+		}
+		.description {
+			font-size: 1rem;
+		}
+		.thumb {
+			margin-bottom: 15px;
+			display: block;
+		}
+	}
+}

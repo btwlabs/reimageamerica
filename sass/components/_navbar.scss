@@ -1,0 +1,113 @@
+//------------------------------------------------
+//
+// 	NAVIGATION - header
+//
+//------------------------------------------------*/
+
+.navbar-fixed {
+	nav {
+		background-color: #0F1934;
+	}
+}
+
+.right-off-canvas-toggle {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+.nav-wrapper {
+	position: relative;
+	
+	.brand-logo {
+		display: block;
+		left: 20px;
+		top: -5px;
+		transform: none;
+		
+		@media #{$small-and-down} {
+			width: 95px;
+			
+			// override stupid materialize centered logo
+			transform: none;
+			left: 10px;			
+		}
+		@media #{$medium-only} {
+			width: 120px;
+		}
+		@media #{$large-and-up} {
+			width: 130px;
+		}
+		
+		img {
+			max-width: 100%;
+			height: auto;
+			vertical-align: middle;
+		}
+	}
+	
+	.contact-call {
+		position: absolute;
+		@include center($xy:x);
+		top: 0px;
+		font-size: 18px;
+		font-weight: 300;
+		
+		i.fa {
+			margin-right: 10px;
+			font-size: 40px;
+			vertical-align: middle;
+		}
+		
+		@media #{$small-and-down} {
+			font-size: .75rem;
+			margin-left: 20px;
+			
+			i.fa {
+				display: none;
+			}
+		}
+	}
+	
+	.right-off-canvas-toggle .menu {
+		float: right;
+		display: block;
+		margin: 3.5rem 2.5rem; 
+	}
+		
+	.top-bar,
+	.middle-bar,
+	.bottom-bar {
+		display: block;
+		width: 40px;
+		height: 7px;
+		background-color: #333;
+		margin-bottom: 4px;
+		transition: transform 0.4s cubic-bezier(1, 0, 0, 1) 0, background-color 0.6s ease 0; 
+	}
+	
+	.top-bar, .bottom-bar {
+		transform-origin: 100% 50%; 
+	}
+	
+	.middle-bar {
+		transition-property: opacity;
+		transition-duration: 0.6s; 
+	}
+	
+	.top-bar-close {
+		transform: rotate(-45deg);
+		background-color: #333; 
+	}
+	
+	.middle-bar-close {
+		opacity: 0;
+		transition-property: opacity;
+		transition-duration: 0.3s; 
+	}
+	
+	.bottom-bar-close {
+		transform: rotate(45deg);
+		background-color: #333; 
+	}
+}

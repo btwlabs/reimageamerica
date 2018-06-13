@@ -1,0 +1,13 @@
+{
+  "name": "reimageamerica",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-check-dependencies": "^1.0.0",
+    "grunt-contrib-compass": "~1.1.1",
+    "grunt-contrib-jshint": "~0.4.1",
+    "grunt-contrib-uglify": "~2.0.0",
+    "grunt-contrib-watch": "~1.0.0",
+  }
+}

@@ -1,0 +1,34 @@
+//------------------------------------------------
+//
+// 	Section TWITTER Feed
+//
+//------------------------------------------------*/
+
+
+.section-twitter {
+	background: $gray-ultra-light url(../images/icon-twitter-ghosted.svg) no-repeat scroll left 5%;
+	background-size: 100% auto;
+	
+	iframe html body .timeline-Widget {
+		background-color: transparent !important;
+	}
+}
+
+
+//------------------------------------------------
+//
+// 	Section INSTAGRAM Feed
+//
+//------------------------------------------------*/
+
+
+.section-instagram {
+	
+	&.section {
+		padding-bottom: 0;
+	}
+	.link {
+		text-align: center;
+		margin: 40px 0 40px;
+	}
+}

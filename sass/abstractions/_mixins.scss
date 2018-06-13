@@ -1,0 +1,271 @@
+//------------------------------------------------------
+//
+//	MIXINS 
+//
+//	location: 
+//      /sass/components/_mixins.scss
+//
+//------------------------------------------------------
+
+
+
+// center vertically and/or horizontally an absolute positioned element
+
+@mixin center($xy:xy) {
+  @if $xy == xy {
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    @include transform(translateX(-50%) translateY(-50%));
+  }
+  @else if $xy == x {
+    left: 50%;
+    right: auto;
+    @include transform(translateX(-50%));
+  }
+  @else if $xy == y {
+    top: 50%;
+    bottom: auto;
+    @include transform(translateY(-50%));
+  }
+}
+
+//------------------------------------------------------
+//
+//	MIXINS - LAYOUT 
+//
+//------------------------------------------------------
+
+
+// Clearfix
+@mixin clearfix {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+   }
+  &:after {
+    clear: both;
+    font-size: 0;/* Clear Fix correction (add font-size to fix extra padding at bottom of site */
+  }
+}
+
+.clearfix,
+%clearfix {
+	@include clearfix;
+}
+
+// Constrained
+@mixin constrained {
+	@include breakpoint($small-only) {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	@include breakpoint($medium-up) {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+//------------------------------------------------------
+//
+//	MIXINS - BORDERS 
+//
+//	location: 
+//      /sass/abstractions/mixins-borders.scss
+//
+//------------------------------------------------------
+
+
+
+// Border radius 
+@mixin border-radius($border-radius) {
+	border-radius: $border-radius;
+}
+
+// border all sides
+@mixin border-all($border-color) {
+	border: 1px solid $border-color;
+}
+
+// border bottom
+@mixin border-bottom($border-color) {
+	border-bottom: 1px solid $border-color;
+}
+
+// border top
+@mixin border-top($border-color) {
+	border-top: 1px solid $border-color;
+}
+
+// border top & bottom
+@mixin border-top-bottom($border-color) {
+	border-bottom: 1px solid $border-color;
+	border-top: 1px solid $border-color;
+}
+
+// border left & right
+@mixin border-left-right($border-color) {
+	border-left: 1px solid $border-color;
+	border-right: 1px solid $border-color;
+}
+
+// border right & bottom 
+@mixin border-right-bottom($border-color) {
+	border-right: 1px solid ($border-color);
+	border-bottom: 1px solid ($border-color);
+}
+
+
+// Double bottom border
+$border-bottom-double: 4px double $border-color;
+
+
+//----------------------------------------------
+//
+//	Responsive Grids - mixins for grids
+//
+//	location: 
+//      /sass/abstractions/mixins/_mixin-responsive-grids.scss
+//
+//
+//----------------------------------------------
+
+
+
+// These are mixins to use on the grid-item <li> or whatever element
+@mixin grid-1 {
+	width: 100%;
+	margin: 0 0 $vert-spacing-unit 0;
+}
+
+// two items across
+@mixin grid-2 {
+	width: 48%;
+	margin: 0 3.8% 4% 0;
+	
+	&:nth-child(2n+0) {
+		margin-right: 0;
+	}
+}
+
+// three items across
+@mixin grid-3 {
+	width: 30%;
+	margin: 0 4.9% 5% 0;
+	
+	&:nth-child(3n+0) {
+		margin-right: 0;
+	}
+}
+
+// four items across
+@mixin grid-4 {
+	width: 22%;
+	margin: 0 3.8% 4% 0;
+	
+	&:nth-child(4n+0) {
+		margin-right: 0;
+	}	
+}
+
+// five items across
+@mixin grid-5 {
+	width: 17.6%;
+	margin: 0 3% 3% 0;
+	
+	&:nth-child(5n+0) {
+		margin-right: 0;
+	}	
+}
+
+// six items across
+@mixin grid-6 {
+	width: 15%;
+	margin: 0 2% 2% 0;
+	
+	&:nth-child(6n+0) {
+		margin-right: 0;
+	}	
+}
+
+
+@mixin grid-whatever($grid-item-width,$grid-item-height,$grid-item-margin) {
+	
+}
+
+//-------------------------------------------------
+//
+//  GRID MIXINS - for edge-to-edge, 
+//				  no-margin/spacing item grids
+//
+//-------------------------------------------------
+
+// These are mixins to use on the grid-item <li> or whatever containing element
+
+@mixin grid-1-full {
+	width: 100%;
+	margin: 0 0 $vert-spacing-unit 0;
+}
+
+// two items across
+@mixin grid-2-full {
+	width: 50%;
+}
+
+// three items across
+@mixin grid-3-full {
+	width: 33.3333%;
+}
+
+// four items across
+@mixin grid-4-full {
+	width: 25%;
+}
+
+// five items across
+@mixin grid-5-full {
+	width: 20%;
+}
+// five items across
+@mixin grid-6-full {
+	width: 16.666%;
+}
+
+//------------------------------------------------------
+//
+//	MIXINS - TYPOGRAPHY 
+//
+//	location: 
+//      /sass/abstractions/mixins-typography.scss
+//
+//------------------------------------------------------
+
+
+
+// Use REMs with a pixel fallback for font sizing.
+@mixin font-size($font-size){
+	font-size: $font-size;
+	font-size: ($font-size / $base-font-size)*1rem;
+}
+
+// Basic sitewide body text
+@mixin base-text-style {
+	font-family: $base-font-family;
+	font-weight: $base-font-weight;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	color: $text-color;
+	letter-spacing: $base-letter-spacing;
+}
+
+
+// Transition mixins - default values are defined in /variables/_variables-general.scss
+@mixin transition($property,$time,$function) {
+	-webkit-transition: $property $time $function;
+	-moz-transition: $property $time $function;
+	-o-transition: $property $time $function;
+	transition: $property $time $function;
+}

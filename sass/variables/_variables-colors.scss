@@ -1,0 +1,200 @@
+//------------------------------------------------------
+//
+//	VARIABLES - COLORS - all colors sitewide defined here
+//
+//	location: 
+//      /sass/variables/_variables-colors.scss
+//
+//------------------------------------------------------
+
+
+// Main Site Colors
+
+$primary-color: #1C3F95; // med blue
+$secondary-color: #F68B55; // med orange
+
+$gray-dark: #333;
+$gray-medium: #777;
+$gray-light: #ccc; // borders;
+$gray-ultra-light: #f1f4f6; // for background
+
+$border-color: #ccc;
+
+$primary-color-light: #f0cf80; // 50% opacity gold
+
+// for subtle changes to delineate container bg color in main content
+$subtle-accent: rgba(0,0,0,0.05); 
+
+$primary-transparent: rgba(226,159,1, 0.8);
+
+
+// neutral colors
+$white: #fff;
+$xlight-gray: #eaeaea; // text bg area
+$light-gray: #ccc; // borders
+$middle-gray: #777; // light text & icons
+$dark-gray: #333; // titles and text
+$xdark-gray: #222;
+$black: #000;
+
+
+//------------------------------
+// Text
+//------------------------------
+
+// base color
+$base-text-color: #555;
+
+
+// titles
+$title-color-dark: #4d4e53;
+$title-color-light: #fff;
+
+
+// Links
+$link-color: #C65326;
+$link-color-hover: shade(#C65326, 20%);
+$inactive-link-color: #929292;
+
+
+// Body Text
+$text-color: #555;
+$text-on-dark-color: #ccc;
+$text-on-light-color: #000;
+
+$link-color: $primary-color;
+$link-hover-color: $secondary-color;
+$link-visited-color: #000;
+
+
+
+// Titles
+$title-color: #000;
+$page-title-color: #000;
+$section-title-color: #000;
+
+$title-on-dark-color: #fff;
+$title-on-light-color: $title-color;
+
+
+
+// Selected text color
+$selection-text-color: #fff;
+$selection-background-color: $primary-color;
+
+
+
+// Button styling NORMAL
+$button-text-color: $primary-color;
+$button-text-hover-color: #fff;
+
+$button-bg-color: transparent;
+$button-bg-hover-color: $primary-color;
+
+$button-border-color: $primary-color;
+$button-border-hover-color: $primary-color;
+
+
+
+// Button styling DARK BUTTON ON LIGHT BG
+$button-text-color-on-light: #fff;
+$button-text-hover-color-on-light: #fff;
+
+$button-bg-color-on-light: $primary-color;
+$button-bg-hover-color-on-light: $secondary-color;
+
+$button-border-color-on-light: $primary-color;
+$button-border-hover-color-on-light: $secondary-color;
+
+
+
+// Button styling LIGHT BUTTON ON DARK BG
+$button-text-color-on-dark: #fff;
+$button-text-hover-color-on-dark: #fff;
+
+$button-bg-color-on-dark: transparent;
+$button-bg-hover-color-on-dark: $primary-color;
+
+$button-border-color-on-dark: $primary-color;
+$button-border-hover-color-on-dark: $primary-color;
+
+
+// Sitewide Borders
+$border-color: $light-gray;
+$sidebar-border-color: $light-gray;
+
+
+
+// Tables 
+$table-header-bg-color: #eee;
+$table-odd-row-bg-color: #fff;
+$table-even-row-bg-color: #f0f0f0;
+
+
+
+// Navigation
+$nav-text-color: #4D4E53;
+$nav-text-hover-color: $primary-color;
+
+$nav-button-bg-color: transparent;
+$nav-button-bg-hover-color: transparent;
+$nav-button-bg-active-color: transparent;
+
+$nav-bar-bg-color: #ccc;
+
+	// mobile nav only
+	$mobile-nav-text-color: #ccc;
+	$mobile-nav-bg-color: #181818;
+	$mobile-nav-text-hover-color: #fff;
+	$mobile-nav-bg-hover-color: $primary-color;
+	$mobile-nav-border-color: #333;
+	$mobile-nav-text-active-color: #333;
+	
+	// mobile header 
+	$mobile-header-bg-color: #fff;
+	
+	
+	// mobile nav close button
+	$mobile-nav-close-text-color: #999;
+	$mobile-nav-close-btn-bg: #000;
+	
+	// mobile subnav
+	$mobile-subnav-text-color: #444;
+	$mobile-subnav-bg-color: #666;
+	
+	// Home page non-mobile
+	$home-nav-text-color: #fff;
+	$home-nav-text-hover-color: #fff;
+
+		
+	// mobile site name
+	$site-name-text-color: #000;
+
+
+// Quotes
+$quote-text-color: $text-color;
+$quote-bg-color-on-light: #eaeaea;
+$quote-bg-color-on-dark: #fff;
+
+
+
+// Footer
+$footer-text-color: $middle-gray;
+
+$footer-link-color: $primary-color;
+$footer-link-hover-color: $secondary-color;
+
+$footer-bg-color: #102456;
+
+
+
+// Social icons
+$social-icon-color: #666;
+$social-icon-hover-color: #fff;
+
+$social-icon-bg-color: transparent;
+$social-icon-bg-hover-color: transparent;
+
+$social-icon-border-color: transparent;
+
+
