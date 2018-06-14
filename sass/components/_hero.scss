@@ -37,7 +37,7 @@
 	
 	// logo
 	.hero-logo {
-		max-width: 400px;
+		max-width: 500px;
 		border-bottom: 1px solid #ccc;
 		padding-bottom: 30px;
 		margin: 0 auto 30px;
@@ -56,10 +56,14 @@
 	.intro {
 		margin: 0 auto 40px;
 		text-align: center;
-		max-width: 400px;
+		max-width: 500px;
+	    font-size: 25px;
+		font-weight: 100;
+		line-height: 1.4;
 		
 		@media #{$medium-and-down} {
 			max-width: 270px;
+			font-size: 18px;
 		}		
 	}
 	
