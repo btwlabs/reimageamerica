@@ -7030,6 +7030,11 @@ aside.right-off-canvas-menu a {
   .section-services .details-wrapper {
     float: left;
     width: 65%; } }
+/* line 52, ../sass/components/_services.scss */
+.section-services .services-img {
+  max-width: 50%;
+  min-width: 250px;
+  margin: 50px auto 0; }
 
 /* line 8, ../sass/components/_social-media.scss */
 .section-twitter {
