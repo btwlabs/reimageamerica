@@ -86,10 +86,7 @@ img {
 	margin: 0;
 	padding: 0;
 	@include flexbox;
-	@include align-items($value: stretch);
-	@include flex-flow($values: (row wrap));
-	@include justify-content($value: space-between);
-	@include align-content($value: stretch);
+	@include flex-wrap($value: wrap);
 }
 .grid ul {
 	margin: 0;

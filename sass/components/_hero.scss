@@ -8,6 +8,7 @@
 .section-hero {
 	position: relative;
 	z-index: 1;
+	background-color: #2f384f;
 	
 	h1 {
 		display: none;
@@ -69,12 +70,15 @@
 	.hero-address {
 	    border: 1px solid #ccc;
 	    text-align: left;
-	    width: 270px;
+	    min-width: 270px;
 	    margin: 0 auto 20px;
 	    
 	    @media #{$medium-and-up} {
 		    width: 270px;
 		    display: inline-block;
+		    vertical-align: top;
+		    height: 110px;
+		    font-size: 15px;
 	    }
 	}
 	
@@ -92,7 +96,7 @@
 		border-right: 1px solid #ccc;
 		display: inline-block;
 		vertical-align: middle;
-		height: 90px;
+		height: 108px;
 		position: relative;
 		
 		@media #{$small-and-down} {

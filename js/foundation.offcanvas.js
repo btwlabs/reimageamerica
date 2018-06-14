@@ -293,6 +293,10 @@ class OffCanvas {
   }
 }
 
+$('.off-canvas a').on('click', function() {
+  $('.off-canvas').foundation('close');
+});
+
 OffCanvas.defaults = {
   /**
    * Allow the user to click outside of the menu to close it.

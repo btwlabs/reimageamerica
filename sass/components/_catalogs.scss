@@ -15,30 +15,17 @@
 		@media #{$small-and-down} {
 			//@include grid-1;
 			width: 100%;
+			margin-bottom: 30px;
 		}
 		@media #{$medium-only} {
 			//@include grid-2;
-			width: 48%;
+			width: 46%;
+			margin: 0 2% 30px;
 		}
 		@media #{$large-and-up} {
 			//@include grid-3;
-			width: 30%;
-		}
-		
-		h3 {
-		    display: inline-block;
-		    border: 1px solid $base-text-color;
-		    width: 50px;
-		    height: 50px;
-		    text-align: center;
-		    padding: 10px;
-		    border-radius: 100%;
-		    margin: 0;
-		    
-		    @media #{$large-and-up} {
-			    width: 60px;
-			    height: 60px;
-		    }
+			width: 29%;
+			margin: 0 2% 30px;
 		}
 		.description {
 			font-size: 1rem;

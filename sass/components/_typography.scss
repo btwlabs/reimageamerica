@@ -3,7 +3,7 @@ a {
 }
 
 html {
-  line-height: 1.6;
+  line-height: 1.8;
 
   @media only screen and (min-width: 0) {
     font-size: 15px;
@@ -32,14 +32,17 @@ h2.section-title {
 	text-align: center;
 	color: $primary-color;
 	padding-bottom: 40px;
-	background: url(../images/title-border.svg) no-repeat scroll center bottom;
 	margin-bottom: 40px;
-	
+	border-bottom: 1px solid $border-color;	
 	@media #{$small-and-down} {
-		font-size: 2.5rem;
+		font-size: 2.2rem;
 	}
 }
 
 h3 {
 	font-size: 1.9rem;
+}
+
+strong {
+	font-weight: 700;
 }

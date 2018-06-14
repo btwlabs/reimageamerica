@@ -6004,34 +6004,22 @@ input[type=range]:focus::-ms-fill-upper {
   @media only screen and (max-width: 600px) {
     /* line 10, ../sass/components/_catalogs.scss */
     .section-surveys .grid-item {
-      width: 100%; } }
+      width: 100%;
+      margin-bottom: 30px; } }
   @media only screen and (min-width: 601px) and (max-width: 992px) {
     /* line 10, ../sass/components/_catalogs.scss */
     .section-surveys .grid-item {
-      width: 48%; } }
+      width: 46%;
+      margin: 0 2% 30px; } }
   @media only screen and (min-width: 993px) {
     /* line 10, ../sass/components/_catalogs.scss */
     .section-surveys .grid-item {
-      width: 30%; } }
-  /* line 28, ../sass/components/_catalogs.scss */
-  .section-surveys .grid-item h3 {
-    display: inline-block;
-    border: 1px solid #555;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    padding: 10px;
-    border-radius: 100%;
-    margin: 0; }
-    @media only screen and (min-width: 993px) {
-      /* line 28, ../sass/components/_catalogs.scss */
-      .section-surveys .grid-item h3 {
-        width: 60px;
-        height: 60px; } }
-  /* line 43, ../sass/components/_catalogs.scss */
+      width: 29%;
+      margin: 0 2% 30px; } }
+  /* line 30, ../sass/components/_catalogs.scss */
   .section-surveys .grid-item .description {
     font-size: 1rem; }
-  /* line 46, ../sass/components/_catalogs.scss */
+  /* line 33, ../sass/components/_catalogs.scss */
   .section-surveys .grid-item .thumb {
     margin-bottom: 15px;
     display: block; }
@@ -6084,7 +6072,7 @@ label[data-error="wrong"]:after {
 
 /* line 8, ../sass/components/_footer.scss */
 .section-footer {
-  background-color: #102456;
+  background-color: #1b2235;
   color: #ccc;
   position: relative; }
   /* line 13, ../sass/components/_footer.scss */
@@ -6247,32 +6235,18 @@ img {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  -webkit-align-items: stretch;
-  -moz-align-items: stretch;
-  align-items: stretch;
-  -webkit-flex-flow: row wrap;
-  -moz-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  -webkit-justify-content: space-between;
-  -moz-justify-content: space-between;
-  justify-content: space-between;
-  -webkit-align-content: stretch;
-  -moz-align-content: stretch;
-  -ms-flex-line-pack: stretch;
-  align-content: stretch; }
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
 
-/* line 94, ../sass/components/_global.scss */
+/* line 91, ../sass/components/_global.scss */
 .grid ul {
   margin: 0;
   padding: 0;
   overflow: hidden; }
 
-/* line 99, ../sass/components/_global.scss */
+/* line 96, ../sass/components/_global.scss */
 .grid li,
 .grid-row {
   list-style-type: none;
@@ -6286,16 +6260,16 @@ img {
  .LIST
  
 ----------------------------------------*/
-/* line 115, ../sass/components/_global.scss */
+/* line 112, ../sass/components/_global.scss */
 .list {
   padding: 0; }
 
-/* line 118, ../sass/components/_global.scss */
+/* line 115, ../sass/components/_global.scss */
 .list ul {
   margin: 0;
   padding: 0; }
 
-/* line 122, ../sass/components/_global.scss */
+/* line 119, ../sass/components/_global.scss */
 .list-row {
   padding: 20px 0;
   border-bottom: 1px solid #ccc;
@@ -6305,15 +6279,15 @@ img {
   overflow: hidden; }
 
 /* first and last row alterations */
-/* line 132, ../sass/components/_global.scss */
+/* line 129, ../sass/components/_global.scss */
 .list-row:nth-of-type(1) {
   padding-top: 0; }
 
-/* line 135, ../sass/components/_global.scss */
+/* line 132, ../sass/components/_global.scss */
 .list-row:last-child {
   border-bottom: 0; }
 
-/* line 146, ../sass/components/_global.scss */
+/* line 143, ../sass/components/_global.scss */
 a.btn, a.btn-large,
 .btn,
 .btn-large {
@@ -6321,7 +6295,7 @@ a.btn, a.btn-large,
   background-color: #1C3F95;
   color: #fff;
   text-decoration: none; }
-  /* line 153, ../sass/components/_global.scss */
+  /* line 150, ../sass/components/_global.scss */
   a.btn:hover, a.btn-large:hover,
   .btn:hover,
   .btn-large:hover {
@@ -6332,14 +6306,15 @@ a.btn, a.btn-large,
 /* line 8, ../sass/components/_hero.scss */
 .section-hero {
   position: relative;
-  z-index: 1; }
-  /* line 12, ../sass/components/_hero.scss */
+  z-index: 1;
+  background-color: #2f384f; }
+  /* line 13, ../sass/components/_hero.scss */
   .section-hero h1 {
     display: none; }
-  /* line 15, ../sass/components/_hero.scss */
+  /* line 16, ../sass/components/_hero.scss */
   .section-hero .parallax-container {
     height: auto; }
-  /* line 19, ../sass/components/_hero.scss */
+  /* line 20, ../sass/components/_hero.scss */
   .section-hero .overlay {
     width: 100%;
     height: 100%;
@@ -6349,65 +6324,68 @@ a.btn, a.btn-large,
     background: rgba(21, 25, 29, 0.6);
     background-size: 50% auto;
     z-index: 2; }
-  /* line 29, ../sass/components/_hero.scss */
+  /* line 30, ../sass/components/_hero.scss */
   .section-hero .container {
     position: relative;
     z-index: 3; }
-  /* line 33, ../sass/components/_hero.scss */
+  /* line 34, ../sass/components/_hero.scss */
   .section-hero .contact-wrapper {
     text-align: center; }
-  /* line 38, ../sass/components/_hero.scss */
+  /* line 39, ../sass/components/_hero.scss */
   .section-hero .hero-logo {
     max-width: 400px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 30px;
     margin: 0 auto 30px; }
     @media only screen and (max-width: 992px) {
-      /* line 38, ../sass/components/_hero.scss */
+      /* line 39, ../sass/components/_hero.scss */
       .section-hero .hero-logo {
         max-width: 270px; } }
-    /* line 49, ../sass/components/_hero.scss */
+    /* line 50, ../sass/components/_hero.scss */
     .section-hero .hero-logo img {
       width: 100%; }
-  /* line 55, ../sass/components/_hero.scss */
+  /* line 56, ../sass/components/_hero.scss */
   .section-hero .intro {
     margin: 0 auto 40px;
     text-align: center;
     max-width: 400px; }
     @media only screen and (max-width: 992px) {
-      /* line 55, ../sass/components/_hero.scss */
+      /* line 56, ../sass/components/_hero.scss */
       .section-hero .intro {
         max-width: 270px; } }
-  /* line 68, ../sass/components/_hero.scss */
+  /* line 69, ../sass/components/_hero.scss */
   .section-hero .hero-contact,
   .section-hero .hero-address {
     border: 1px solid #ccc;
     text-align: left;
-    width: 270px;
+    min-width: 270px;
     margin: 0 auto 20px; }
     @media only screen and (min-width: 601px) {
-      /* line 68, ../sass/components/_hero.scss */
+      /* line 69, ../sass/components/_hero.scss */
       .section-hero .hero-contact,
       .section-hero .hero-address {
         width: 270px;
-        display: inline-block; } }
+        display: inline-block;
+        vertical-align: top;
+        height: 110px;
+        font-size: 15px; } }
   @media only screen and (min-width: 655px) {
-    /* line 82, ../sass/components/_hero.scss */
+    /* line 86, ../sass/components/_hero.scss */
     .section-hero .hero-address {
       margin-right: 30px; } }
-  /* line 89, ../sass/components/_hero.scss */
+  /* line 93, ../sass/components/_hero.scss */
   .section-hero .icon {
     width: 60px;
     border-right: 1px solid #ccc;
     display: inline-block;
     vertical-align: middle;
-    height: 90px;
+    height: 108px;
     position: relative; }
     @media only screen and (max-width: 600px) {
-      /* line 89, ../sass/components/_hero.scss */
+      /* line 93, ../sass/components/_hero.scss */
       .section-hero .icon {
         height: 80px; } }
-    /* line 102, ../sass/components/_hero.scss */
+    /* line 106, ../sass/components/_hero.scss */
     .section-hero .icon i.fa {
       font-size: 40px;
       position: absolute;
@@ -6419,20 +6397,20 @@ a.btn, a.btn-large,
       -ms-transform: translateX(-50%) translateY(-50%);
       -webkit-transform: translateX(-50%) translateY(-50%);
       transform: translateX(-50%) translateY(-50%); }
-  /* line 110, ../sass/components/_hero.scss */
+  /* line 114, ../sass/components/_hero.scss */
   .section-hero .details {
     padding: 15px;
     display: inline-block;
     vertical-align: middle; }
-  /* line 117, ../sass/components/_hero.scss */
+  /* line 121, ../sass/components/_hero.scss */
   .section-hero .scroll-link {
     text-align: center;
     margin: 60px 0 0; }
     @media only screen and (max-width: 600px) {
-      /* line 117, ../sass/components/_hero.scss */
+      /* line 121, ../sass/components/_hero.scss */
       .section-hero .scroll-link {
         margin-top: 30px; } }
-    /* line 125, ../sass/components/_hero.scss */
+    /* line 129, ../sass/components/_hero.scss */
     .section-hero .scroll-link a {
       display: inline-block;
       width: 30px;
@@ -6448,7 +6426,7 @@ a.btn, a.btn-large,
 
 /* line 8, ../sass/components/_navbar.scss */
 .navbar-fixed nav {
-  background-color: #0F1934; }
+  background-color: #1b2235; }
 
 /* line 13, ../sass/components/_navbar.scss */
 .right-off-canvas-toggle {
@@ -7006,17 +6984,14 @@ aside.right-off-canvas-menu a {
     .slide-content h2 {
       font-size: 2.5rem; } }
 
-/* line 9, ../sass/components/_services.scss */
-.section-services .row {
-  max-width: 90%; }
-/* line 12, ../sass/components/_services.scss */
+/* line 10, ../sass/components/_services.scss */
 .section-services .col {
   margin-bottom: 40px; }
   @media only screen and (min-width: 993px) {
-    /* line 12, ../sass/components/_services.scss */
+    /* line 10, ../sass/components/_services.scss */
     .section-services .col {
       padding: 0 30px; } }
-/* line 20, ../sass/components/_services.scss */
+/* line 18, ../sass/components/_services.scss */
 .section-services h3.title {
   text-align: center;
   font-size: 30px;
@@ -7025,27 +7000,27 @@ aside.right-off-canvas-menu a {
   border-bottom: 1px solid #ccc;
   margin-top: 0; }
   @media only screen and (min-width: 601px) and (max-width: 992px) {
-    /* line 20, ../sass/components/_services.scss */
+    /* line 18, ../sass/components/_services.scss */
     .section-services h3.title {
       text-align: left; } }
 @media only screen and (max-width: 600px) {
-  /* line 33, ../sass/components/_services.scss */
+  /* line 31, ../sass/components/_services.scss */
   .section-services .img-wrapper {
     width: 80%;
     margin: 0 auto 30px; } }
 @media only screen and (min-width: 601px) and (max-width: 992px) {
-  /* line 33, ../sass/components/_services.scss */
+  /* line 31, ../sass/components/_services.scss */
   .section-services .img-wrapper {
     float: left;
     width: 30%;
     margin-right: 5%; } }
 @media only screen and (min-width: 993px) {
-  /* line 33, ../sass/components/_services.scss */
+  /* line 31, ../sass/components/_services.scss */
   .section-services .img-wrapper {
     max-width: 70%;
     margin: 0 auto 30px; } }
 @media only screen and (min-width: 601px) and (max-width: 992px) {
-  /* line 48, ../sass/components/_services.scss */
+  /* line 46, ../sass/components/_services.scss */
   .section-services .details-wrapper {
     float: left;
     width: 65%; } }
@@ -7069,11 +7044,12 @@ aside.right-off-canvas-menu a {
 /* line 8, ../sass/components/_testimonials.scss */
 .section-testimonials {
   position: relative;
-  z-index: 1; }
-  /* line 12, ../sass/components/_testimonials.scss */
+  z-index: 1;
+  background-color: #18283e; }
+  /* line 13, ../sass/components/_testimonials.scss */
   .section-testimonials .parallax-container {
     height: auto; }
-  /* line 16, ../sass/components/_testimonials.scss */
+  /* line 17, ../sass/components/_testimonials.scss */
   .section-testimonials .overlay {
     width: 100%;
     height: 100%;
@@ -7082,40 +7058,40 @@ aside.right-off-canvas-menu a {
     left: 0;
     background-color: rgba(21, 25, 29, 0.6);
     z-index: 2; }
-  /* line 25, ../sass/components/_testimonials.scss */
+  /* line 26, ../sass/components/_testimonials.scss */
   .section-testimonials .container {
     position: relative;
     z-index: 3; }
-  /* line 29, ../sass/components/_testimonials.scss */
+  /* line 30, ../sass/components/_testimonials.scss */
   .section-testimonials .section {
     padding: 8% 0; }
-  /* line 32, ../sass/components/_testimonials.scss */
+  /* line 33, ../sass/components/_testimonials.scss */
   .section-testimonials .quote-body {
     padding: 8px 0 0 60px;
     background: url(../images/icon-quote-open.svg) no-repeat scroll left 19px;
     background-size: 50px auto; }
-  /* line 38, ../sass/components/_testimonials.scss */
+  /* line 39, ../sass/components/_testimonials.scss */
   .section-testimonials .quote-author {
     font-style: italic;
     text-align: right;
     font-size: 1.2rem; }
   @media only screen and (max-width: 600px) {
-    /* line 44, ../sass/components/_testimonials.scss */
+    /* line 45, ../sass/components/_testimonials.scss */
     .section-testimonials .carousel {
       height: auto; } }
   @media only screen and (min-width: 601px) {
-    /* line 44, ../sass/components/_testimonials.scss */
+    /* line 45, ../sass/components/_testimonials.scss */
     .section-testimonials .carousel {
       height: 500px; } }
-  /* line 54, ../sass/components/_testimonials.scss */
+  /* line 55, ../sass/components/_testimonials.scss */
   .section-testimonials .carousel.carousel-slider .carousel-item p {
     font-size: 1.4rem;
     text-align: left; }
     @media only screen and (max-width: 600px) {
-      /* line 54, ../sass/components/_testimonials.scss */
+      /* line 55, ../sass/components/_testimonials.scss */
       .section-testimonials .carousel.carousel-slider .carousel-item p {
         font-size: 1.2rem; } }
-  /* line 66, ../sass/components/_testimonials.scss */
+  /* line 67, ../sass/components/_testimonials.scss */
   .section-testimonials .indicators .indicator-item {
     height: 20px;
     width: 20px;
@@ -7128,7 +7104,7 @@ aside.right-off-canvas-menu a {
     transition: background-color .3s;
     border-radius: 50%;
     border: 2px solid #fff; }
-    /* line 76, ../sass/components/_testimonials.scss */
+    /* line 77, ../sass/components/_testimonials.scss */
     .section-testimonials .indicators .indicator-item:hover {
       background-color: #fff; }
 
@@ -7138,7 +7114,7 @@ a {
 
 /* line 5, ../sass/components/_typography.scss */
 html {
-  line-height: 1.6;
+  line-height: 1.8;
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   color: #555; }
@@ -7166,15 +7142,19 @@ h2.section-title {
   text-align: center;
   color: #1C3F95;
   padding-bottom: 40px;
-  background: url(../images/title-border.svg) no-repeat scroll center bottom;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ccc; }
   @media only screen and (max-width: 600px) {
     /* line 31, ../sass/components/_typography.scss */
     h2.section-title {
-      font-size: 2.5rem; } }
+      font-size: 2.2rem; } }
 
-/* line 43, ../sass/components/_typography.scss */
+/* line 42, ../sass/components/_typography.scss */
 h3 {
   font-size: 1.9rem; }
+
+/* line 46, ../sass/components/_typography.scss */
+strong {
+  font-weight: 700; }
 
 /*# sourceMappingURL=main.css.map */
