@@ -5973,24 +5973,26 @@ input[type=range]:focus::-ms-fill-upper {
 /* line 8, ../sass/components/_about.scss */
 .section-about {
   position: relative;
-  z-index: 1; }
-  /* line 12, ../sass/components/_about.scss */
+  z-index: 1;
+  background: url(../images/bg-about-lrg.jpg) no-repeat scroll center center;
+  background-size: cover; }
+  /* line 15, ../sass/components/_about.scss */
   .section-about .parallax-container {
     height: auto; }
-  /* line 16, ../sass/components/_about.scss */
+  /* line 19, ../sass/components/_about.scss */
   .section-about .overlay {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(21, 25, 29, 0.6);
+    background-color: rgba(23, 61, 103, 0.75);
     z-index: 2; }
-  /* line 25, ../sass/components/_about.scss */
+  /* line 28, ../sass/components/_about.scss */
   .section-about .container {
     position: relative;
     z-index: 3; }
-  /* line 30, ../sass/components/_about.scss */
+  /* line 33, ../sass/components/_about.scss */
   .section-about .section-title {
     text-align: left;
     background: none;
@@ -6321,7 +6323,7 @@ a.btn, a.btn-large,
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(21, 25, 29, 0.6);
+    background: rgba(34, 92, 157, 0.75);
     background-size: 50% auto;
     z-index: 2; }
   /* line 30, ../sass/components/_hero.scss */

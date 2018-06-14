@@ -8,6 +8,9 @@
 .section-about {
 	position: relative;
 	z-index: 1;
+	background: url(../images/bg-about-lrg.jpg) no-repeat scroll center center;
+	background-size: cover;
+	
 	
 	.parallax-container {
 		height: auto;
@@ -19,7 +22,7 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		background-color: rgba(21,25,29, 0.6);
+		background-color: rgba(23, 61, 103, 0.75);
 		z-index: 2;
 	}
 	.container {
