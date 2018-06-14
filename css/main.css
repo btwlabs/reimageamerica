@@ -5997,24 +5997,24 @@ input[type=range]:focus::-ms-fill-upper {
     border-bottom: 1px solid #ccc; }
 
 /* line 10, ../sass/components/_catalogs.scss */
-.section-catalogs .grid-item {
+.section-surveys .grid-item {
   border: 1px solid #ccc;
   padding: 30px;
   text-align: center; }
   @media only screen and (max-width: 600px) {
     /* line 10, ../sass/components/_catalogs.scss */
-    .section-catalogs .grid-item {
+    .section-surveys .grid-item {
       width: 100%; } }
   @media only screen and (min-width: 601px) and (max-width: 992px) {
     /* line 10, ../sass/components/_catalogs.scss */
-    .section-catalogs .grid-item {
+    .section-surveys .grid-item {
       width: 48%; } }
   @media only screen and (min-width: 993px) {
     /* line 10, ../sass/components/_catalogs.scss */
-    .section-catalogs .grid-item {
+    .section-surveys .grid-item {
       width: 30%; } }
   /* line 28, ../sass/components/_catalogs.scss */
-  .section-catalogs .grid-item h3 {
+  .section-surveys .grid-item h3 {
     display: inline-block;
     border: 1px solid #555;
     width: 50px;
@@ -6025,14 +6025,14 @@ input[type=range]:focus::-ms-fill-upper {
     margin: 0; }
     @media only screen and (min-width: 993px) {
       /* line 28, ../sass/components/_catalogs.scss */
-      .section-catalogs .grid-item h3 {
+      .section-surveys .grid-item h3 {
         width: 60px;
         height: 60px; } }
   /* line 43, ../sass/components/_catalogs.scss */
-  .section-catalogs .grid-item .description {
+  .section-surveys .grid-item .description {
     font-size: 1rem; }
   /* line 46, ../sass/components/_catalogs.scss */
-  .section-catalogs .grid-item .thumb {
+  .section-surveys .grid-item .thumb {
     margin-bottom: 15px;
     display: block; }
 
@@ -6346,7 +6346,7 @@ a.btn, a.btn-large,
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(21, 25, 29, 0.6) url(../images/icon-dragonfly-ghosted.svg) no-repeat scroll 120% 30%;
+    background: rgba(21, 25, 29, 0.6);
     background-size: 50% auto;
     z-index: 2; }
   /* line 29, ../sass/components/_hero.scss */
@@ -6469,17 +6469,17 @@ a.btn, a.btn-large,
     @media only screen and (max-width: 600px) {
       /* line 22, ../sass/components/_navbar.scss */
       .nav-wrapper .brand-logo {
-        width: 95px;
+        width: 85px;
         transform: none;
         left: 10px; } }
     @media only screen and (min-width: 601px) and (max-width: 992px) {
       /* line 22, ../sass/components/_navbar.scss */
       .nav-wrapper .brand-logo {
-        width: 120px; } }
+        width: 100px; } }
     @media only screen and (min-width: 993px) {
       /* line 22, ../sass/components/_navbar.scss */
       .nav-wrapper .brand-logo {
-        width: 130px; } }
+        width: 110px; } }
     /* line 42, ../sass/components/_navbar.scss */
     .nav-wrapper .brand-logo img {
       max-width: 100%;

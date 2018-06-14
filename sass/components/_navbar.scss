@@ -26,17 +26,17 @@
 		transform: none;
 		
 		@media #{$small-and-down} {
-			width: 95px;
+			width: 85px;
 			
 			// override stupid materialize centered logo
 			transform: none;
 			left: 10px;			
 		}
 		@media #{$medium-only} {
-			width: 120px;
+			width: 100px;
 		}
 		@media #{$large-and-up} {
-			width: 130px;
+			width: 110px;
 		}
 		
 		img {
