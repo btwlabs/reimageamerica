@@ -91,6 +91,14 @@
 	   @media #{$medium-plus} {
 		    margin-right: 30px;
 	    }
+	    
+	    a {
+		    color: #fff;
+		    
+		    &:hover {
+			    color: #a4d3e3;
+		    }
+	    }
 	}
 	
 	// map and phone icons
