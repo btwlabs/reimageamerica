@@ -9,6 +9,7 @@ group :development do
   gem 'compass-validator'      			# So you can `compass validate`.
   gem 'compass-normalize'       		# Compass version of normalize.css.
   gem 'css_parser'              		# Helps `compass stats` output statistics.
+  gem 'rb-readline'						# added after recommendation per error
 
   # Guard
   gem 'guard'                   # Guard event handler.
