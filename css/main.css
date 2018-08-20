@@ -6279,12 +6279,16 @@ a.btn, a.btn-large,
   box-shadow: none;
   background-color: #2e7bd0;
   color: #fff;
-  text-decoration: none; }
-  /* line 159, ../sass/components/_global.scss */
+  text-decoration: none;
+  padding: 15px 20px;
+  height: auto;
+  border-radius: 4px;
+  line-height: 1; }
+  /* line 163, ../sass/components/_global.scss */
   a.btn:hover, a.btn-large:hover,
   .btn:hover,
   .btn-large:hover {
-    background-color: #c4c4c4;
+    background-color: #333;
     text-decoration: none;
     color: #fff; }
 
