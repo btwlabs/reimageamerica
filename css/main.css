@@ -6044,6 +6044,10 @@ label[data-error="wrong"]:after {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px; }
 
+/* line 63, ../sass/components/_contact.scss */
+button#cf-submit {
+  min-width: 50%; }
+
 /* line 8, ../sass/components/_footer.scss */
 .section-footer {
   background-color: #1b2235;
