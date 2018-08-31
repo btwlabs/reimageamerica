@@ -37,10 +37,10 @@
 	
 	// logo
 	.hero-logo {
-		max-width: 500px;
-		border-bottom: 1px solid #ccc;
-		padding-bottom: 30px;
+		max-width: 570px;
+		padding: 30px;
 		margin: 0 auto 30px;
+		background: #fff;
 		
 		@media #{$medium-and-down} {
 			max-width: 270px;

@@ -6326,10 +6326,10 @@ a.btn, a.btn-large,
     text-align: center; }
   /* line 39, ../sass/components/_hero.scss */
   .section-hero .hero-logo {
-    max-width: 500px;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 30px;
-    margin: 0 auto 30px; }
+    max-width: 570px;
+    padding: 30px;
+    margin: 0 auto 30px;
+    background: #fff; }
     @media only screen and (max-width: 992px) {
       /* line 39, ../sass/components/_hero.scss */
       .section-hero .hero-logo {
