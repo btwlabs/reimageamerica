@@ -6329,15 +6329,16 @@ a.btn, a.btn-large,
     max-width: 570px;
     padding: 30px;
     margin: 0 auto 30px;
-    background: #fff; }
+    background: #fff;
+    border-radius: 10px; }
     @media only screen and (max-width: 992px) {
       /* line 39, ../sass/components/_hero.scss */
       .section-hero .hero-logo {
         max-width: 270px; } }
-    /* line 50, ../sass/components/_hero.scss */
+    /* line 51, ../sass/components/_hero.scss */
     .section-hero .hero-logo img {
       width: 100%; }
-  /* line 56, ../sass/components/_hero.scss */
+  /* line 57, ../sass/components/_hero.scss */
   .section-hero .intro {
     margin: 0 auto 40px;
     text-align: center;
@@ -6346,11 +6347,11 @@ a.btn, a.btn-large,
     font-weight: 100;
     line-height: 1.4; }
     @media only screen and (max-width: 992px) {
-      /* line 56, ../sass/components/_hero.scss */
+      /* line 57, ../sass/components/_hero.scss */
       .section-hero .intro {
         max-width: 270px;
         font-size: 18px; } }
-  /* line 73, ../sass/components/_hero.scss */
+  /* line 74, ../sass/components/_hero.scss */
   .section-hero .hero-contact,
   .section-hero .hero-address {
     border: 1px solid #ccc;
@@ -6358,7 +6359,7 @@ a.btn, a.btn-large,
     min-width: 270px;
     margin: 0 auto 20px; }
     @media only screen and (min-width: 601px) {
-      /* line 73, ../sass/components/_hero.scss */
+      /* line 74, ../sass/components/_hero.scss */
       .section-hero .hero-contact,
       .section-hero .hero-address {
         width: 270px;
@@ -6367,16 +6368,16 @@ a.btn, a.btn-large,
         height: 110px;
         font-size: 15px; } }
   @media only screen and (min-width: 655px) {
-    /* line 90, ../sass/components/_hero.scss */
+    /* line 91, ../sass/components/_hero.scss */
     .section-hero .hero-address {
       margin-right: 30px; } }
-  /* line 95, ../sass/components/_hero.scss */
+  /* line 96, ../sass/components/_hero.scss */
   .section-hero .hero-address a {
     color: #fff; }
-    /* line 98, ../sass/components/_hero.scss */
+    /* line 99, ../sass/components/_hero.scss */
     .section-hero .hero-address a:hover {
       color: #a4d3e3; }
-  /* line 105, ../sass/components/_hero.scss */
+  /* line 106, ../sass/components/_hero.scss */
   .section-hero .icon {
     width: 60px;
     border-right: 1px solid #ccc;
@@ -6385,10 +6386,10 @@ a.btn, a.btn-large,
     height: 108px;
     position: relative; }
     @media only screen and (max-width: 600px) {
-      /* line 105, ../sass/components/_hero.scss */
+      /* line 106, ../sass/components/_hero.scss */
       .section-hero .icon {
         height: 80px; } }
-    /* line 118, ../sass/components/_hero.scss */
+    /* line 119, ../sass/components/_hero.scss */
     .section-hero .icon i.fa {
       font-size: 40px;
       position: absolute;
@@ -6400,20 +6401,20 @@ a.btn, a.btn-large,
       -ms-transform: translateX(-50%) translateY(-50%);
       -webkit-transform: translateX(-50%) translateY(-50%);
       transform: translateX(-50%) translateY(-50%); }
-  /* line 126, ../sass/components/_hero.scss */
+  /* line 127, ../sass/components/_hero.scss */
   .section-hero .details {
     padding: 15px;
     display: inline-block;
     vertical-align: middle; }
-  /* line 133, ../sass/components/_hero.scss */
+  /* line 134, ../sass/components/_hero.scss */
   .section-hero .scroll-link {
     text-align: center;
     margin: 60px 0 0; }
     @media only screen and (max-width: 600px) {
-      /* line 133, ../sass/components/_hero.scss */
+      /* line 134, ../sass/components/_hero.scss */
       .section-hero .scroll-link {
         margin-top: 30px; } }
-    /* line 141, ../sass/components/_hero.scss */
+    /* line 142, ../sass/components/_hero.scss */
     .section-hero .scroll-link a {
       display: inline-block;
       width: 30px;
