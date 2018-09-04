@@ -46,7 +46,7 @@ if(get_magic_quotes_gpc()) {
 // Enter the email address that you want to emails to be sent to.
 // Example $address = "yourname@yourdomain.com";
 
-$address = "rose@dragonflysg.com";
+$address = "sales@reimageamerica.com";
 
 
 // Configuration option.
@@ -80,7 +80,7 @@ if(mail($address, $e_subject, $msg, $headers)) {
 	echo "<fieldset>";
 	echo "<div id='success_page'>";
 	echo "<h2>Email Sent Successfully.</h2>";
-	echo "<p>Thank you <strong>$name</strong>, your message has been sent to rose@dragonflysg.com.</p>";
+	echo "<p>Thank you <strong>$name</strong>, your message has been sent to sales@reimageamerica.com.</p>";
 	echo "</div>";
 	echo "</fieldset>";
 
