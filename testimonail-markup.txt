@@ -1,0 +1,47 @@
+			<!------------------------------
+				 TESTIMONIALS 
+			-------------------------------->
+			<section id="testimonials" class="l-content-6 section-testimonials scrollspy">
+				
+				<!--<div class="overlay"></div>-->
+				<div class="container section l-content-8-inner">
+					<h2 class="section-title white-text">What Our Customers Say</h2>
+	
+					<div class="carousel carousel-slider center" data-indicators="true">
+						
+					    <div class="carousel-item white-text" href="#one!">
+							<div>
+                            	<div class="icon-quote-open"></div>
+								<div class="quote-body" ><p>We absolutely LOVE working with Reimage America.  It is great knowing that there are quality companies out there who do a great job for a great price. As a small business owner, quality and service are everything to me so it's nice to find folks who share those values.</p></div>
+								<div class="quote-author" >– Sam Smith</div>
+								</div>
+						</div>
+					    
+					    <div class="carousel-item white-text" href="#two!">
+							<div class="icon-quote-open"></div>
+							<div class="quote-body"><p>Working with Reimage America is always a great experience! The sales people are professional, friendly, and make the process smooth as possible.</p></div>
+							<div class="quote-author">– Jim Nobody</div>							
+					    </div>
+					    <div class="carousel-item white-text" href="#three!">
+							<div class="icon-quote-open"></div>
+							<div class="quote-body"><p>I am always impressed by Reimage America and the wonderful job they do on anything we need. </p></div>
+							<div class="quote-author">– Sally Someone</div>
+					    </div>
+					    
+					    <div class="carousel-item white-text" href="#four!">
+							<div class="icon-quote-open"></div>
+							<div class="quote-body"><p>The people at Reimage America are so kind and talented and most importantly, they do a great survey job. They never even call me crazy, which would be well within their rights to do. I'm so grateful to them for their attitude, talent, and commitment to service.</p></div>
+							<div class="quote-author">– Mike Man</div>
+					    </div>
+					    
+					    <div class="carousel-item white-text" href="#five!">
+							<div class="icon-quote-open"></div>
+							<div class="quote-body"><p>I first started doing business with Reimage America in 2005 and have been doing so ever since. They have always been helpful, creative, competitive and expedient with their products and services. They are extremely nice folks as well!</p></div>
+							<div class="quote-author">– Guy Somebody</div>
+					    </div>						    						    
+					    
+					</div>
+				</div><!-- .container -->
+			</section>
+
+
