@@ -6009,34 +6009,30 @@ input[type=range]:focus::-ms-fill-upper {
       padding: 3px 0;
       line-height: 1; }
   /* line 20, ../sass/components/_contact.scss */
-  .section-contact span {
-    display: inline-block;
-    vertical-align: middle; }
-  /* line 24, ../sass/components/_contact.scss */
   .section-contact span.fa {
     margin-right: 10px;
     font-size: 25px;
     width: 25px; }
-  /* line 29, ../sass/components/_contact.scss */
+  /* line 25, ../sass/components/_contact.scss */
   .section-contact span.fa-mobile {
     font-size: 30px; }
-  /* line 32, ../sass/components/_contact.scss */
+  /* line 28, ../sass/components/_contact.scss */
   .section-contact span.fa-envelope {
     font-size: 18px; }
-  /* line 37, ../sass/components/_contact.scss */
+  /* line 33, ../sass/components/_contact.scss */
   .section-contact .form-container .form-group {
     text-align: center; }
 
-/* line 44, ../sass/components/_contact.scss */
+/* line 40, ../sass/components/_contact.scss */
 label[data-error="wrong"]:after {
   margin-top: 20px; }
 
-/* line 48, ../sass/components/_contact.scss */
+/* line 44, ../sass/components/_contact.scss */
 #message {
   margin-bottom: 20px;
   padding: 0; }
 
-/* line 53, ../sass/components/_contact.scss */
+/* line 49, ../sass/components/_contact.scss */
 .error_message {
   display: block;
   background: #FBE3E4;
@@ -6047,7 +6043,7 @@ label[data-error="wrong"]:after {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px; }
 
-/* line 64, ../sass/components/_contact.scss */
+/* line 60, ../sass/components/_contact.scss */
 button#cf-submit {
   min-width: 50%; }
 
