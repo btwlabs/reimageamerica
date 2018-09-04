@@ -5998,42 +5998,45 @@ input[type=range]:focus::-ms-fill-upper {
     background: none;
     border-bottom: 1px solid #ccc; }
 
-/* line 10, ../sass/components/_contact.scss */
-.section-contact .contact-info {
-  text-align: center; }
-  /* line 13, ../sass/components/_contact.scss */
-  .section-contact .contact-info li {
-    padding: 3px 0;
-    line-height: 1; }
-/* line 19, ../sass/components/_contact.scss */
-.section-contact span {
-  display: inline-block;
-  vertical-align: middle; }
-/* line 23, ../sass/components/_contact.scss */
-.section-contact span.fa {
-  margin-right: 10px;
-  font-size: 25px;
-  width: 25px; }
-/* line 28, ../sass/components/_contact.scss */
-.section-contact span.fa-mobile {
-  font-size: 30px; }
-/* line 31, ../sass/components/_contact.scss */
-.section-contact span.fa-envelope {
-  font-size: 18px; }
-/* line 36, ../sass/components/_contact.scss */
-.section-contact .form-container .form-group {
-  text-align: center; }
+/* line 8, ../sass/components/_contact.scss */
+.section-contact {
+  background-color: #f2f2f2; }
+  /* line 11, ../sass/components/_contact.scss */
+  .section-contact .contact-info {
+    text-align: center; }
+    /* line 14, ../sass/components/_contact.scss */
+    .section-contact .contact-info li {
+      padding: 3px 0;
+      line-height: 1; }
+  /* line 20, ../sass/components/_contact.scss */
+  .section-contact span {
+    display: inline-block;
+    vertical-align: middle; }
+  /* line 24, ../sass/components/_contact.scss */
+  .section-contact span.fa {
+    margin-right: 10px;
+    font-size: 25px;
+    width: 25px; }
+  /* line 29, ../sass/components/_contact.scss */
+  .section-contact span.fa-mobile {
+    font-size: 30px; }
+  /* line 32, ../sass/components/_contact.scss */
+  .section-contact span.fa-envelope {
+    font-size: 18px; }
+  /* line 37, ../sass/components/_contact.scss */
+  .section-contact .form-container .form-group {
+    text-align: center; }
 
-/* line 43, ../sass/components/_contact.scss */
+/* line 44, ../sass/components/_contact.scss */
 label[data-error="wrong"]:after {
   margin-top: 20px; }
 
-/* line 47, ../sass/components/_contact.scss */
+/* line 48, ../sass/components/_contact.scss */
 #message {
   margin-bottom: 20px;
   padding: 0; }
 
-/* line 52, ../sass/components/_contact.scss */
+/* line 53, ../sass/components/_contact.scss */
 .error_message {
   display: block;
   background: #FBE3E4;
@@ -6044,7 +6047,7 @@ label[data-error="wrong"]:after {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px; }
 
-/* line 63, ../sass/components/_contact.scss */
+/* line 64, ../sass/components/_contact.scss */
 button#cf-submit {
   min-width: 50%; }
 
@@ -6157,7 +6160,7 @@ li a.active {
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
-  color: #2e7bd0;
+  color: #074b78;
   text-decoration: none; }
   /* line 21, ../sass/components/_global.scss */
   a:hover,
@@ -6281,7 +6284,7 @@ a.btn, a.btn-large,
 .btn,
 .btn-large {
   box-shadow: none;
-  background-color: #2e7bd0;
+  background-color: #074b78;
   color: #fff;
   text-decoration: none;
   padding: 15px 20px;
@@ -6931,7 +6934,7 @@ aside.right-off-canvas-menu a {
         margin: 0 120px 0 0; } }
     /* line 88, ../sass/components/_process.scss */
     .section-process .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-      background-color: #2e7bd0;
+      background-color: #074b78;
       opacity: 1; }
     /* line 92, ../sass/components/_process.scss */
     .section-process .swiper-pagination .swiper-pagination-bullet:last-child {
@@ -6964,7 +6967,7 @@ aside.right-off-canvas-menu a {
 /* line 122, ../sass/components/_process.scss */
 .swiper-pagination-bullet-active {
   color: #fff;
-  background: #2e7bd0; }
+  background: #074b78; }
 
 /* line 127, ../sass/components/_process.scss */
 .slide-content {
@@ -7056,33 +7059,36 @@ aside.right-off-canvas-menu a {
   text-align: center;
   margin: 40px 0 40px; }
 
-/* line 10, ../sass/components/_surveys.scss */
-.section-surveys .grid-item {
-  border: 1px solid #ccc;
-  padding: 30px;
-  text-align: center; }
-  @media only screen and (max-width: 600px) {
-    /* line 10, ../sass/components/_surveys.scss */
-    .section-surveys .grid-item {
-      width: 100%;
-      margin-bottom: 30px; } }
-  @media only screen and (min-width: 601px) and (max-width: 992px) {
-    /* line 10, ../sass/components/_surveys.scss */
-    .section-surveys .grid-item {
-      width: 46%;
-      margin: 0 2% 30px; } }
-  @media only screen and (min-width: 993px) {
-    /* line 10, ../sass/components/_surveys.scss */
-    .section-surveys .grid-item {
-      width: 29%;
-      margin: 0 2% 30px; } }
-  /* line 30, ../sass/components/_surveys.scss */
-  .section-surveys .grid-item .description {
-    font-size: 1rem; }
-  /* line 33, ../sass/components/_surveys.scss */
-  .section-surveys .grid-item .thumb {
-    margin-bottom: 15px;
-    display: block; }
+/* line 8, ../sass/components/_surveys.scss */
+.section-surveys {
+  background-color: #f2f2f2; }
+  /* line 10, ../sass/components/_surveys.scss */
+  .section-surveys .grid-item {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center; }
+    @media only screen and (max-width: 600px) {
+      /* line 10, ../sass/components/_surveys.scss */
+      .section-surveys .grid-item {
+        width: 100%;
+        margin-bottom: 30px; } }
+    @media only screen and (min-width: 601px) and (max-width: 992px) {
+      /* line 10, ../sass/components/_surveys.scss */
+      .section-surveys .grid-item {
+        width: 46%;
+        margin: 0 2% 30px; } }
+    @media only screen and (min-width: 993px) {
+      /* line 10, ../sass/components/_surveys.scss */
+      .section-surveys .grid-item {
+        width: 29%;
+        margin: 0 2% 30px; } }
+    /* line 31, ../sass/components/_surveys.scss */
+    .section-surveys .grid-item .description {
+      font-size: 1rem; }
+    /* line 34, ../sass/components/_surveys.scss */
+    .section-surveys .grid-item .thumb {
+      margin-bottom: 15px;
+      display: block; }
 
 /* line 8, ../sass/components/_testimonials.scss */
 .section-testimonials {
@@ -7183,7 +7189,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 31, ../sass/components/_typography.scss */
 h2.section-title {
   text-align: center;
-  color: #2e7bd0;
+  color: #074b78;
   padding-bottom: 40px;
   margin-bottom: 40px;
   border-bottom: 1px solid #ccc; }
