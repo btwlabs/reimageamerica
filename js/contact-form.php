@@ -21,10 +21,10 @@ if(trim($name) == '') {
 } else if(trim($email) == '') {
 	echo '<div class="error_message">Please enter a valid email address.</div>';
 	exit();
-} else if(trim($phone) == '') {
+} else if(trim($telephone) == '') {
 	echo '<div class="error_message">Please enter a valid phone number.</div>';
 	exit();
-} else if(!is_numeric($phone)) {
+} else if(!is_numeric($telephone)) {
 	echo '<div class="error_message">Phone number can only contain digits.</div>';
 	exit();
 } else if(!isEmail($email)) {
